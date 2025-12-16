@@ -1,0 +1,120 @@
+:root {
+    --bg: #f1e3e3;
+    --text: #222;
+    --primary: #188b8d;
+}
+
+body.dark {
+    --bg: #1a1a1a;
+    --text: #f7d6d6;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+.Logo {
+    width: 60px;      /* tamaño del logo */
+    height: auto;     /* mantiene proporción */
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: var(--primary);
+    color: white;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+#theme-toggle {
+    background: #188b8d;        /* fondo blanco */
+    border: 2px solid #f7f4f4;  /* borde rojo */
+    padding: 8px 12px;          /* espacio interno */
+    border-radius: 8px;         /* esquinas redondeadas */
+    font-size: 20px;            /* tamaño del emoji */
+    cursor: pointer;            /* cursor de botón */
+    transition: 0.3s;           /* animación suave */
+}
+
+/* PERSONAJE */
+.personaje {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.personaje-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+/* PROJECTS */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.cargando {
+    background:#957f7f;
+    border: 1px solid #e82020;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cargando img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.btn {
+    background: var(--primary);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: #555;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #188b8d;
+}

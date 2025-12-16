@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Mónica Conforti</title>
+    <link rel="stylesheet" href="tarea 3/assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <img src=logo.png alt="Logo" class="Logo">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <button id="theme-toggle">🌞🌙</button>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio" class="personaje">
+        <img src="Foto personaje.png" alt="Foto personaje" class="personaje">
+        <h1>Monica Conforti</h1>
+        <p>Desarrollador Front-End</p>
+
+        <div class="hero-buttons">
+            <a href="mailto:moniconforti4@gmail.com" class="btn">Correo</a>
+            <a href="https://github.com/moniconforti4-eng" target="_blank" class="btn">GitHub</a>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <p>Desarrollador front-end en formación, motivado por crear interfaces limpias y funcionales.</p>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="section">
+        <h2>Experiencia laboral</h2>
+        <p>Sin experiencia laboral.</p>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section">
+        <h2>Habilidades destacadas</h2>
+        <ul class="skills">
+            <li>Proactivo</li>
+            <li>Trabajo en equipo</li>
+        </ul>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section class="section">
+        <h2>Formación académica</h2>
+        <ul>
+            <li>Pontificia Universidad Catolica de Valparaiso – Kinesiología</li>
+            <li>Curso Front-End Trainee</li>
+        </ul>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+
+        <div class="projects">
+            <div class="cargando">
+                <img src="cargando.png" alt="Proyecto en proceso">
+                <h3>Proyecto 1</h3>
+                <p>En proceso...</p>
+            </div>
+
+            <div class="cargando">
+                <img src="cargando.png" alt="Proyecto en proceso">
+                <h3>Proyecto 2</h3>
+                <p>En proceso...</p>
+            </div>
+
+            <div class="cargando">
+                <img src="cargando.png" alt="Proyecto en proceso">
+                <h3>Proyecto 3</h3>
+                <p>En proceso...</p>
+            </div>
+
+            <div class="cargando">
+                <img src="cargando.png" alt="Proyecto en proceso">
+                <h3>Proyecto 4</h3>
+                <p>En proceso...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo electrónico" required>
+            <textarea placeholder="Mensaje" required></textarea>
+
+            <label class="checkbox">
+                <input type="checkbox" required>
+                Acepto la política de datos
+            </label>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn">Enviar</button>
+                <button type="reset" class="btn btn-secondary">Limpiar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Mónica Conforti</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
